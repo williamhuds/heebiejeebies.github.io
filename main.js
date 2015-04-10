@@ -20,7 +20,7 @@ $(function (){
     
                     
     });
-    $("Converted Amount").html(cnv);
+    $("Converted Amount").val(cnv);
                     
       
                               
