@@ -17,10 +17,10 @@ $(function (){
     console.log(from);
     console.log(to);
     console.log(cnv);
-    
+    window.alert(cnv);
                     
     });
-    window.alert(cnv);
+    
                     
       
                               
