@@ -20,7 +20,7 @@ $(function (){
     
                     
     });
-    document.getElementById("cnvrt").innerHTML = cnv;
+    window.alert(cnv);
                     
       
                               
