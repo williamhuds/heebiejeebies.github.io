@@ -1,5 +1,4 @@
 $(function (){
-  
   $("#btn").click(function (){
                     
     var from, to, fcountry,tcountry,amt,cnv;
@@ -17,6 +16,7 @@ $(function (){
     console.log(from);
     console.log(to);
     console.log(cnv);
+	var message = amt+" "fcountry+"is "+cnv.toFixed(2)+ "+tcountry;
     window.alert(cnv.toFixed(2));
                     
     });
