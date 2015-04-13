@@ -9,6 +9,7 @@ $(function (){
     amt = $("#amount").val();
         
     //Only get 1000 api requests a month
+	//exposing my appid for all in the world to see
     $.getJSON("https://openexchangerates.org/api/latest.json?app_id=3ebaec61eb9a420f98bfc831e2e960d7",function(json){
     from = Number(json.rates[fcountry]);
     to = Number(json.rates[tcountry]);
