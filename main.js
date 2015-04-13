@@ -16,8 +16,9 @@ $(function (){
     console.log(from);
     console.log(to);
     console.log(cnv);
-	var message = amt+" "fcountry+"is "+cnv.toFixed(2)+ "+tcountry;
-    window.alert(message);
+	message = cnv.toFixed(2);
+	
+    window.alert(message.concat(tcountry));
                     
     });
     
