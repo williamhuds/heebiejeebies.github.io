@@ -6,67 +6,69 @@
         <title>Currency Converter</title>
         <script src="jquery-1.11.2.min.js"></script>
         <script src="main.js"></script>
+		<link rel = "stylesheet" type="text/css" href="stylesheets/convstyle.css">
     </head>
     
     
 <body>
     <h1 id="appName">Currency Converter</h1>
-    <p>
-        <label for="amount">Starting Amount</label>
-        <input id="amount" type="text" size=12 />
-    </p>
-    
-    <p>
-        <label for="sourceCurr">Source Currency</label>
-        <select id="sourceCurr">
-            <option value="USD">USD</option>
-			<option value="AED">AED</option>
-			<option value="AFN">AFN</option>
-			<option value="ALL">ALL</option>
-			<option value="AZN">AZN</option>
-			<option value="BTC">BTC</option>
-			<option value="CAD">CAD</option>
-			<option value="CZK">CZK</option>
-			<option value="DJF">DJF</option>
-			<option value="GBP">GBP</option>
-			<option value="IRR">IRR</option>
-			<option value="MUR">MUR</option>
-			<option value="NOK">NOK</option>
-			<option value="STD">STD</option>
-			
-        </select>
-    </p>
-    
-    <p>
+	<div id="app">
+		<p>
+			<label for="amount">Starting Amount</label>
+			<input id="amount" type="text" size=12 />
+		</p>
+		
+		<p>
+			<label for="sourceCurr">Source Currency</label>
+			<select id="sourceCurr">
+				<option value="USD">USD</option>
+				<option value="AED">AED</option>
+				<option value="AFN">AFN</option>
+				<option value="ALL">ALL</option>
+				<option value="AZN">AZN</option>
+				<option value="BTC">BTC</option>
+				<option value="CAD">CAD</option>
+				<option value="CZK">CZK</option>
+				<option value="DJF">DJF</option>
+				<option value="GBP">GBP</option>
+				<option value="IRR">IRR</option>
+				<option value="MUR">MUR</option>
+				<option value="NOK">NOK</option>
+				<option value="STD">STD</option>
+				
+			</select>
+		</p>
+		
+		<p>
 
-        <label for="destCurr">Destination Currency</label>
-        <select id="destCurr">
-            <option value="USD">USD</option>
-			<option value="AED">AED</option>
-			<option value="AFN">AFN</option>
-			<option value="ALL">ALL</option>
-			<option value="AZN">AZN</option>
-			<option value="BTC">BTC</option>
-			<option value="CAD">CAD</option>
-			<option value="CZK">CZK</option>
-			<option value="DJF">DJF</option>
-			<option value="GBP">GBP</option>
-			<option value="IRR">IRR</option>
-			<option value="MUR">MUR</option>
-			<option value="NOK">NOK</option>
-			<option value="STD">STD</option
-        </select>    
-    
-    </p>
-    
-   
-    
-    <p>
-    
-        <input id="btn" type="button" value="Exchange"/>
-               
-    </p>
-    
+			<label for="destCurr">Destination Currency</label>
+			<select id="destCurr">
+				<option value="USD">USD</option>
+				<option value="AED">AED</option>
+				<option value="AFN">AFN</option>
+				<option value="ALL">ALL</option>
+				<option value="AZN">AZN</option>
+				<option value="BTC">BTC</option>
+				<option value="CAD">CAD</option>
+				<option value="CZK">CZK</option>
+				<option value="DJF">DJF</option>
+				<option value="GBP">GBP</option>
+				<option value="IRR">IRR</option>
+				<option value="MUR">MUR</option>
+				<option value="NOK">NOK</option>
+				<option value="STD">STD</option
+			</select>    
+		
+		</p>
+		
+	   
+		
+		<p>
+		
+			<input id="btn" type="button" value="Exchange"/>
+				   
+		</p>
+    </div>
     
     
     </body>
