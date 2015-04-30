@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+
+<!-- Archaeology game board -->
+<!-- Written by Craig Miller, April 2012 -->
+<!-- Modified by Craig Miller, September 2012 -->
+
+    
+<!-- Modified by Colin Cruse, April 2015 -->
+
+<head>
+<meta charset="UTF-8">
+<title>Game Board</title>
+<link rel = "stylesheet" type="text/css" href="game.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+<script type="text/javascript" src="board.js"></script>
+<script type="text/javascript" src="game.js"></script>
+</head>
+
+<body>
+
+<h1>Archaeology Board</h1>
+    
+<div id = "table">
+    <table id="board">
+    </table>
+</div>
+
+
+
+    
+    
+    
+<div id= "data"> 
+    
+    <p id = "clickR">This Click You Found: </p>
+
+
+    <p id = "tClicks">Total Digs: </p>
+    <p id = "sDigs">Successful Digs: </p>
+
+    <p id = "fSize">Forum Size</p>
+    <p id = "fFound">Forum Pieces Found: 0</p>
+
+    <p id = "pSize">Palace Size </p>
+    <p id = "pFound">Palace Pieces Found: 0</p>
+
+    <p id = "tSize">Temple Size </p>
+    <p id = "tFound">Temple Pieces Found: 0</p>
+
+    <p id = "hSize">House Size </p>
+    <p id = "hFound">House Pieces Found: 0</p>
+
+    <p id = "hutSize">Hut Size </p>
+    <p id = "hutFound">Hut Pieces Found: 0</p>
+</div>   
+    
+<div id= "foundMessage" ></div> 
+   
+    <div id = "summ">
+    <h3>Summary Content</h3>
+    <p>I have changed the text based interface to a colored square one. All squares are clickable. When a square is clicked the script determines if it was a ruin then color codes it accordingly. Stats about 
+        the clicks are noted to the right of the game. When a ruin is completely dug out a  message is displayed. A message is also displayed when the player discovers all ruins 
+        the player is then given a rating based on their total clicks to find all the ruins. </p>
+    </div>
+</body>
+</html>
